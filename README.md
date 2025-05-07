@@ -16,5 +16,12 @@ Os resultados do ISA-Capital 2003 formaram uma linha de base sobre os temas que 
 Suas bases de dados também são utilizadas em estudos acadêmicos de pós-graduação, o que amplia os conhecimentos sobre os temas em investigação.
 
 Saiba mais em:
+
+
+![Logo_GISA_CEInfo](https://github.com/user-attachments/assets/8e5b765d-a14c-419a-9a4b-31a02a9fd342)
+Prefeitura SP
 https://capital.sp.gov.br/web/saude/epidemiologia_e_informacao/isacapitalsp
 
+![logo_FSP_USP_original_semfundo](https://github.com/user-attachments/assets/645b55b3-241a-48b7-9985-041a346a2636)
+Faculdade de Saúde Pública da USP
+https://www.fsp.usp.br/isa-capital/apresentacao/
