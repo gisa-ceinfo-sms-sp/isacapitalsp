@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/3c2f5bc7-86d3-4d9b-99f8-5081924a126a)
 
 
 Inquérito de saúde do município de São Paulo - ISA Capital 2015 - Hipertensão Arterial
