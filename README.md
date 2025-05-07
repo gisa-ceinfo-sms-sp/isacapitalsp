@@ -1,5 +1,5 @@
 # isacapitalsp
-Inquérito de Saúde no Município de São Paulo
+Inquérito de Saúde no Município de São Paulo 2003, 2008, 2015 e 2023 (em andamento)
 
 ![image](https://github.com/user-attachments/assets/9725b121-e3f2-4d02-b508-ba2c251e4b3b)
 
@@ -17,9 +17,7 @@ Suas bases de dados também são utilizadas em estudos acadêmicos de pós-gradu
 
 Saiba mais em:
 
-
-![Logo_GISA_CEInfo](https://github.com/user-attachments/assets/8e5b765d-a14c-419a-9a4b-31a02a9fd342)
-Prefeitura SP
+Secretaria Municipal da Saúde de São Paulo
 https://capital.sp.gov.br/web/saude/epidemiologia_e_informacao/isacapitalsp
 
 ![logo_FSP_USP_original_semfundo](https://github.com/user-attachments/assets/645b55b3-241a-48b7-9985-041a346a2636)
