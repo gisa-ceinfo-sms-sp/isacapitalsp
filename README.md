@@ -1,7 +1,7 @@
 # isacapitalsp
 Inquérito de Saúde no Município de São Paulo 2003, 2008, 2015 e 2023 (em andamento)
 
-![image](https://github.com/user-attachments/assets/9725b121-e3f2-4d02-b508-ba2c251e4b3b)
+![image](https://github.com/user-attachments/assets/81ed77b3-0a6f-4e15-bca2-62cd86cd0458)
 
 Pesquisa realizada em amostra de domicílios permanentes da área urbana da cidade de São Paulo, o ISA-Capital está previsto para ocorrer a cada cinco anos, financiado pela Secretaria Municipal da Saúde de São Paulo e desenvolvido por pesquisadores da Faculdade de Saúde Pública, Faculdade de Medicina da Universidade de São Paulo, Universidade Estadual de Campinas e Instituto de Saúde da Secretaria de Estado da Saúde de São Paulo.
 
