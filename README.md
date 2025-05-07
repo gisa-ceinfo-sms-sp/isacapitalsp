@@ -20,6 +20,6 @@ Saiba mais em:
 Secretaria Municipal da Saúde de São Paulo
 https://capital.sp.gov.br/web/saude/epidemiologia_e_informacao/isacapitalsp
 
-![logo_FSP_USP_original_semfundo](https://github.com/user-attachments/assets/645b55b3-241a-48b7-9985-041a346a2636)
+![image](https://github.com/user-attachments/assets/c719e834-0ea1-42af-8cb6-9066c5cd88c9)
 Faculdade de Saúde Pública da USP
 https://www.fsp.usp.br/isa-capital/apresentacao/
