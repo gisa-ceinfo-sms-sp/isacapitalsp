@@ -17,9 +17,10 @@ Suas bases de dados também são utilizadas em estudos acadêmicos de pós-gradu
 
 Saiba mais em:
 
+![image](https://github.com/user-attachments/assets/4a7da537-5e63-4280-9f1c-6890c6d8b60f)
 Secretaria Municipal da Saúde de São Paulo
 https://capital.sp.gov.br/web/saude/epidemiologia_e_informacao/isacapitalsp
 
-![image](https://github.com/user-attachments/assets/c719e834-0ea1-42af-8cb6-9066c5cd88c9)
+![image](https://github.com/user-attachments/assets/caef2b50-22c7-44ad-8983-713c28428749)
 Faculdade de Saúde Pública da USP
 https://www.fsp.usp.br/isa-capital/apresentacao/
