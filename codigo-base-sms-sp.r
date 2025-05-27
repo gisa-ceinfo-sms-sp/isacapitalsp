@@ -1,4 +1,6 @@
-###CODIGO-BASE ISA CAPITAL 2023 SMS-SP V. 23.05.2025.11h.09m###
+###CODIGO-BASE ISA CAPITAL 2023 SMS-SP V.26052025_16h21m###
+###ELABORAÇÂO: José Olimpio Moura de Albuquerque (NADEpi/CIEVS/DEVE/COVISA/SEABEVS), Marcelo Antunes Failla (GISA/CEInfo/CIS/SERMAP)###
+
 
 install.packages("haven")   # Para ler arquivos .sav
 install.packages("survey")  # O pacote survey realiza a análise de amostras complexas
