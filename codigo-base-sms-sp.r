@@ -203,27 +203,6 @@ print(doc, target = "frequencias_ISA_Capital.docx")
 ################## TABELAS CRUZADAS #############################
 ################################################################
 
-# Cria tabela cruzada de sexo x faixa etária
-tab_cross_sexo_faixa_etaria <- des_srvyr %>%
-  filter(!is.na(b07_sexo_geral)) %>%
-  filter(!is.na(FX_ETARIA)) %>%
-  mutate(
-    sexo = as_factor(b07_sexo_geral)
-  ) %>%
-  group_by(sexo, FX_ETARIA) %>%
-  summarise(
-    prop = survey_mean(proportion = TRUE, vartype = "ci"),
-    .groups = "drop"
-  ) %>%
-  mutate(across(c(prop, prop_low, prop_upp), ~ . * 100)) %>%
-  rename(
-    Proporção = prop,
-    IC_inf = prop_low,
-    IC_sup = prop_upp
-  )
-
-
-
 # Cria tabela cruzada de sexo x morbidade 2 semanas
 tab_cross_sexo_morbidade2semanas <- des_srvyr %>%
   filter(!is.na(b07_sexo_geral)) %>%
@@ -245,6 +224,24 @@ tab_cross_sexo_morbidade2semanas <- des_srvyr %>%
   )
 
 
+# Formatar tabela no padrão do STATA
+tab_cruzada_formatada_sexo_morbidade2semanas <- tab_cross_sexo_morbidade2semanas %>%
+  mutate(
+    categoria = glue("{round(Proporção, 1)}% [{round(IC_inf, 1)}–{round(IC_sup, 1)}]")
+  ) %>%
+  select(sexo, morbidade2semanas, categoria) %>%
+  pivot_wider(
+    names_from = morbidade2semanas,
+    values_from = categoria
+  )
+
+## Formatar a tabela para o flextable
+flextable(tab_cruzada_formatada_sexo_morbidade2semanas) %>%
+  set_caption("Tabela cruzada: Sexo x Morbidade nas últimas 2 semanas") %>%
+  autofit()
+
+
+
 # Cria tabela cruzada de hipertensão x faixa etaria
 tab_cross_hipertensao_faixa_etaria <- des_srvyr %>%
   filter(!is.na(FX_ETARIA)) %>%
@@ -263,6 +260,22 @@ tab_cross_hipertensao_faixa_etaria <- des_srvyr %>%
     IC_inf = prop_low,
     IC_sup = prop_upp
   )
+
+# Formatar tabela no padrão do STATA
+tab_cruzada_formatada_hipertensao_faixa_etaria <- tab_cross_hipertensao_faixa_etaria %>%
+  mutate(
+    categoria = glue("{round(Proporção, 1)}% [{round(IC_inf, 1)}–{round(IC_sup, 1)}]")
+  ) %>%
+  select(hipertensao, FX_ETARIA, categoria) %>%
+  pivot_wider(
+    names_from = hipertensao,
+    values_from = categoria
+  )
+
+## Formatar a tabela para o flextable
+flextable(tab_cruzada_formatada_hipertensao_faixa_etaria) %>%
+  set_caption("Tabela cruzada: Hipertensão x Faixa Etária") %>%
+  autofit()
 
 
 
@@ -285,3 +298,94 @@ tab_cross_infarto_faixa_etaria <- des_srvyr %>%
     IC_sup = prop_upp
   )
 
+# Formatar tabela no padrão do STATA
+tab_cruzada_formatada_infarto_faixa_etaria <- tab_cross_infarto_faixa_etaria %>%
+  mutate(
+    categoria = glue("{round(Proporção, 1)}% [{round(IC_inf, 1)}–{round(IC_sup, 1)}]")
+  ) %>%
+  select(infarto, FX_ETARIA, categoria) %>%
+  pivot_wider(
+    names_from = infarto,
+    values_from = categoria
+  )
+
+## Formatar a tabela para o flextable
+flextable(tab_cruzada_formatada_infarto_faixa_etaria) %>%
+  set_caption("Tabela cruzada: Infarto x Faixa Etária") %>%
+  autofit()
+
+## 
+# Cria tabela cruzada de CRS x morbidade 2 semanas
+tab_cross_CRS_morbidade2semanas <- des_srvyr %>%
+  filter(!is.na(cod_coord)) %>%
+  filter(!is.na(c101_morbidade2semanas)) %>%
+  mutate(
+    CRS = as_factor(cod_coord),
+    morbidade2semanas = as_factor(c101_morbidade2semanas)
+  ) %>%
+  group_by(CRS, morbidade2semanas) %>%
+  summarise(
+    prop = survey_mean(proportion = TRUE, vartype = "ci"),
+    .groups = "drop"
+  ) %>%
+  mutate(across(c(prop, prop_low, prop_upp), ~ . * 100)) %>%
+  rename(
+    Proporção = prop,
+    IC_inf = prop_low,
+    IC_sup = prop_upp
+  )
+
+
+# Formatar tabela no padrão do STATA
+tab_cruzada_formatada_CRS_morbidade2semanas <- tab_cross_CRS_morbidade2semanas %>%
+  mutate(
+    categoria = glue("{round(Proporção, 1)}% [{round(IC_inf, 1)}–{round(IC_sup, 1)}]")
+  ) %>%
+  select(CRS, morbidade2semanas, categoria) %>%
+  pivot_wider(
+    names_from = morbidade2semanas,
+    values_from = categoria
+  )
+
+## Formatar a tabela para o flextable
+flextable(tab_cruzada_formatada_CRS_morbidade2semanas) %>%
+  set_caption("Tabela cruzada: CRS x Morbidade nas últimas 2 semanas") %>%
+  autofit()
+
+
+
+## Salvar no arquivo .DOCX
+# 1. Criar flextables com legenda
+ftx1 <- flextable(tab_cruzada_formatada_sexo_morbidade2semanas) %>%
+  set_caption("Tabela 1. Sexo x Morbidade nas últimas 2 semanas") %>%
+  autofit()
+
+ftx2 <- flextable(tab_cruzada_formatada_hipertensao_faixa_etaria) %>%
+  set_caption("Tabela 2. Hipertensão x Faixa Etária") %>%
+  autofit()
+
+ftx3 <- flextable(tab_cruzada_formatada_infarto_faixa_etaria) %>%
+  set_caption("Tabela 3. Infarto x Faixa Etária") %>%
+  autofit()
+
+ftx4 <- flextable(tab_cruzada_formatada_CRS_morbidade2semanas) %>%
+  set_caption("Tabela 4. CRS x Morbidade nas últimas 2 semanas") %>%
+  autofit()
+
+# 2. Criar documento Word
+doc <- read_docx()
+
+# 3. Adicionar as tabelas ao documento
+doc <- doc %>%
+  body_add_par("Tabelas Cruzadas do ISA Capital", style = "heading 1") %>%
+  body_add_flextable(ftx1) %>%
+  body_add_par("", style = "Normal") %>%
+  body_add_flextable(ftx2) %>%
+  body_add_par("", style = "Normal") %>%
+  body_add_flextable(ftx3) %>%
+  body_add_par("", style = "Normal") %>%
+  body_add_flextable(ftx4)
+
+# 4. Salvar o documento
+print(doc, target = "tabelas_cruzadas_ISA_Capital.docx")
+# Fim do script
