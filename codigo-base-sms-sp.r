@@ -1,15 +1,27 @@
-###CODIGO-BASE ISA CAPITAL 2023 SMS-SP V.26052025_16h21m###
+###CODIGO-BASE ISA CAPITAL 2023 SMS-SP V.10062025_22h17m###
 ###ELABORAÇÂO: José Olimpio Moura de Albuquerque (NADEpi/CIEVS/DEVE/COVISA/SEABEVS), Marcelo Antunes Failla (GISA/CEInfo/CIS/SERMAP)###
 
+#INSTRUÇÕES PARA RODAR O SCRIPT EM SUA MÁQUINA (PROCESSAMENTO LOCAL)#
+## VERSÕES UTILIZADAS PARA PROCESSAMENTO: R-4.5.0 for Windows e RStudio 2025.05.0 Build 496
+#1. CRIE A PASTA "c:/ISA_CAPITAL"#
+#2. Insira o arquivo "ISACapital17042025TreinamentoComPesosExcluiVar.SAV"#
+#3. Copie este código para o seu R Studio em sua máquina, em um novo script ou no script já em uso por versões anteriores#
+#4. Selecione todas as linhas e clique em "run"#
+#5. Os arquivos de saída serão salvos na mesma pasta onde está a base "c:/ISA_Capital"#
 
-install.packages("haven")   # Para ler arquivos .sav
-install.packages("survey")  # O pacote survey realiza a análise de amostras complexas
-install.packages("srvyr")  # O pacote srvyr baseado no 'survey' realiza a análise no padrão do tidyverse
-install.packages("labelled")
-install.packages("flextable")
-install.packages("officer")
+#install.packages("haven")   # Para ler arquivos .sav
+#install.packages("survey")  # O pacote survey realiza a análise de amostras complexas
+#install.packages("srvyr")  # O pacote srvyr baseado no 'survey' realiza a análise no padrão do tidyverse
+#install.packages("labelled")
+#install.packages("flextable")
+#install.packages("officer")
+#install.packages("dplyr")
+#install.packages("glue")
+
 
 library(tidyverse)
+library(dplyr)
+library(glue)
 library(haven)
 library(survey)
 library(srvyr)
@@ -20,7 +32,7 @@ library(flextable)
 library(officer)
 
 #define a pasta onde estão os arquivos
-setwd("c:/ISA_Capital")
+setwd("c:/ISA_CAPITAL")
 
 #ler o arquivo de dados do SPSS
 dados <- read_sav("ISACapital17042025TreinamentoComPesosExcluiVar.sav")
