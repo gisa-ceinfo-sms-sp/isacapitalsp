@@ -34,7 +34,7 @@ library(stats)
 library(glue)
 
 #define a pasta onde estão os arquivos
-setwd("c:/ISA_Capital")
+setwd("c:/ISA_CAPITAL")
 
 #ler o arquivo de dados do SPSS
 dados <- read_sav("ISACapital17042025TreinamentoComPesosExcluiVar.sav")
@@ -281,7 +281,7 @@ doc <- read_docx() %>%
   body_add_flextable(formatar_tabela(freq_fx_etaria, "Tabela 8 - Frequência por Faixa Etária"))
 
 # 💾 Salva o documento
-print(doc, target = "frequencias_ISA_Capital_2025-06-12.docx")
+print(doc, target = "frequencias_ISA_Capital_script_v20250612.docx")
 
 
 #########################################################################################
@@ -473,7 +473,7 @@ rm(resultado_chi,estat_f, ndf, ddf, pval, texto_chi)
 
   
 # Salvar documento
-print(doc2, target = "/tabelas_cruzadas_ISA_Capital_2025-06-12.docx")
+print(doc2, target = "tabelas_cruzadas_ISA_Capital_script_v20250612.docx")
 
 
 # Fim do script
