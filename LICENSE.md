@@ -29,7 +29,7 @@ Não tem de cumprir com os termos da licença relativamente a elementos do mater
 Não são dadas quaisquer garantias. A licença pode não lhe dar todas as autorizações necessárias para o uso pretendido. Por exemplo, outros direitos, tais como direitos de imagem, de privacidade ou direitos morais , podem limitar o uso do material.
 
 
-[Repositório do Inquérito de Saúde no Município de São Paulo - ISA Capital SP 2023](https://github.com/gisa-ceinfo-sms-sp/isacapitalsp) © 2025 by [Coordenação de Epidemiologia e Informação (CEInfo) / Secretaria Municipal da Saúde de São Paulo](https://prefeitura.sp.gov.br/web/saude/epidemiologia_e_informacao) está licenciado sob ![image](https://mirrors.creativecommons.org/presskit/icons/cc.svg) ![image](https://mirrors.creativecommons.org/presskit/icons/by.svg) ![image](https://mirrors.creativecommons.org/presskit/icons/sa.svg) [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0)
+[Repositório do Inquérito de Saúde no Município de São Paulo - ISA Capital SP 2023](https://github.com/gisa-ceinfo-sms-sp/isacapitalsp) © 2025 by [Coordenação de Epidemiologia e Informação (CEInfo) / Secretaria Municipal da Saúde de São Paulo](https://prefeitura.sp.gov.br/web/saude/epidemiologia_e_informacao) está licenciado sob [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0)
 
 Repositório do Inquérito de Saúde no Município de São Paulo - ISA Capital SP 2023 © 2025 by Coordenação de Epidemiologia e Informação (CEInfo) / Secretaria Municipal da Saúde de São Paulo is licensed under CC BY-SA 4.0
 
