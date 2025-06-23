@@ -2,7 +2,7 @@
 
 [Repositório do Inquérito de Saúde no Município de São Paulo - ISA Capital SP 2023](https://github.com/gisa-ceinfo-sms-sp/isacapitalsp) © 2025 by [Coordenação de Epidemiologia e Informação (CEInfo) / Secretaria Municipal da Saúde de São Paulo](https://prefeitura.sp.gov.br/web/saude/epidemiologia_e_informacao) está licenciado sob [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0)
 
-![image](https://mirrors.creativecommons.org/presskit/icons/cc.svg) ![image](https://mirrors.creativecommons.org/presskit/icons/by.svg) ![image](https://mirrors.creativecommons.org/presskit/icons/sa.svg) 
+![image](https://github.com/user-attachments/assets/8e0f966c-5c72-450c-b1a3-2ceeee5271e5)
 
 
 © Secretaria Municipal da Saúde de São Paulo.
