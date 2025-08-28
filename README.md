@@ -16,13 +16,13 @@ Os resultados do ISA-Capital 2003 formaram uma linha de base sobre os temas que 
 
 Suas bases de dados também são utilizadas em estudos acadêmicos de pós-graduação, o que amplia os conhecimentos sobre os temas em investigação.
 
-O código está disponibilizado em dois formatos:
+O código foi construído na linguagem R e está disponibilizado em dois formatos, sendo:
 
-![R - processamento local] (https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/codigo-base-sms-sp.r)
-![R - processamento na nuvem] (https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/ISA_CAPITAL_2023.ipynb)
+(<a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/codigo-base-sms-sp.r">R - processamento local</a>)  
+(<a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/ISA_CAPITAL_2023.ipynb">R - processamento na nuvem</a>)  
 
 
-Saiba mais em:
+Saiba mais sobre o ISA Capital - SP em:
 
 ![image](https://github.com/user-attachments/assets/7b248db0-c0aa-4219-a050-8ba6f8f06fd6)
 **[Secretaria Municipal da Saúde de São Paulo](https://capital.sp.gov.br/web/saude/epidemiologia_e_informacao/isacapitalsp)**
