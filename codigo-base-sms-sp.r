@@ -5,7 +5,7 @@
 ## VERSÕES UTILIZADAS PARA PROCESSAMENTO: [R-4.5.0 for Windows](https://cran.r-project.org/bin/windows/base/R-4.5.0-win.exe) e [RStudio 2025.05.0 Build 496](https://download1.rstudio.org/electron/windows/RStudio-2025.05.1-513.exe)
 #1. CRIE A PASTA "c:/ISA_CAPITAL"#
 #2. Insira o arquivo "ISACapital27082025Ex1.SAV"#
-#3. Copie este código para o seu R Studio em sua máquina, em um novo script ou no script já em uso por versões anteriores#
+#3. Copie este código para o R Studio em sua máquina, em um novo script ou no script já em uso por versões anteriores#
 #4. Selecione todas as linhas e clique em "run"#
 #5. Os arquivos de saída serão salvos na mesma pasta onde está a base "c:/ISA_Capital"#
 
