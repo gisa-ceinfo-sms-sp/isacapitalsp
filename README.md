@@ -18,8 +18,8 @@ Suas bases de dados também são utilizadas em estudos acadêmicos de pós-gradu
 
 O código foi construído na linguagem R e está disponibilizado em dois formatos, sendo:
 
-(<a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/codigo-base-sms-sp.r">R - processamento local</a>)  
-(<a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/ISA_CAPITAL_2023.ipynb">R - processamento na nuvem</a>)  
+<a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/codigo-base-sms-sp.r">R - processamento local</a>  
+<a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/ISA_CAPITAL_2023.ipynb">R - processamento na nuvem</a>
 
 
 Saiba mais sobre o ISA Capital - SP em:
