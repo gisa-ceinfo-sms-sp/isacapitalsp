@@ -23,8 +23,8 @@ O código foi construído na linguagem R e está disponibilizado em dois formato
 
 Saiba mais sobre o ISA Capital - SP em:
 
-<img src="https://github.com/user-attachments/assets/7b248db0-c0aa-4219-a050-8ba6f8f06fd6" alt="image" style="width:10%;">
+!<img src="https://github.com/user-attachments/assets/7b248db0-c0aa-4219-a050-8ba6f8f06fd6" alt="image" style="width:10%;">;
 **[Secretaria Municipal da Saúde de São Paulo](https://capital.sp.gov.br/web/saude/epidemiologia_e_informacao/isacapitalsp)**
 
-<img src="https://github.com/user-attachments/assets/8bf2052c-a92b-4139-a0c1-67cdbcc41a70" alt="image" style="width:10%;">
+!<img src="https://github.com/user-attachments/assets/8bf2052c-a92b-4139-a0c1-67cdbcc41a70" alt="image" style="width:10%;">;
 **[Faculdade de Saúde Pública da USP](https://www.fsp.usp.br/isa-capital/apresentacao/)**
