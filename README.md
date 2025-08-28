@@ -18,8 +18,8 @@ Suas bases de dados também são utilizadas em estudos acadêmicos de pós-gradu
 
 O código está disponibilizado em dois formatos:
 
-[R - processamento local] (https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/codigo-base-sms-sp.r)
-[R - processamento na nuvem] (https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/ISA_CAPITAL_2023.ipynb)
+![R - processamento local] (https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/codigo-base-sms-sp.r)
+![R - processamento na nuvem] (https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/ISA_CAPITAL_2023.ipynb)
 
 
 Saiba mais em:
