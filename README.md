@@ -18,6 +18,8 @@ Suas bases de dados também são utilizadas em estudos acadêmicos de pós-gradu
 
 O código foi construído na linguagem R e está disponibilizado em dois formatos de acordo com o local de processamento, sendo: <a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/codigo-base-sms-sp.r">R local (máquina do usuário)</a> e <a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/ISA_CAPITAL_2023.ipynb">R nuvem (google colab)</a>
 
+<img width="5%" alt="image" src="https://github.com/user-attachments/assets/c773c64e-4433-4803-aba9-fc02ff2b0025" />
+
 
 Saiba mais sobre o Inquérito de Saúde no Município de São Paulo "ISA Capital - SP" em:
 
