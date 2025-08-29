@@ -16,8 +16,7 @@ Os resultados do ISA-Capital 2003 formaram uma linha de base sobre os temas que 
 
 Suas bases de dados também são utilizadas em estudos acadêmicos de pós-graduação, o que amplia os conhecimentos sobre os temas em investigação.
 
-O código foi construído na linguagem R e está disponibilizado em dois formatos de acordo com o local de processamento, sendo: <a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/codigo-base-sms-sp.r">R local (máquina do usuário)</a> e <a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/ISA_CAPITAL_2023.ipynb">R nuvem (google colab)</a>  <img width="7%" alt="image" src="https://github.com/user-attachments/assets/c773c64e-4433-4803-aba9-fc02ff2b0025" />   <img width="7%" alt="image" src="https://github.com/user-attachments/assets/2a7a781d-3b6b-408c-9696-88750834ddb8" />
-
+O código foi construído na linguagem R e está disponibilizado em dois formatos de acordo com o local de processamento, sendo: <a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/codigo-base-sms-sp.r">R local (máquina do usuário)</a> e <a href="https://github.com/gisa-ceinfo-sms-sp/isacapitalsp/blob/main/ISA_CAPITAL_2023.ipynb">R nuvem (google colab)</a>  <img width="7%" alt="image" src="https://github.com/user-attachments/assets/c773c64e-4433-4803-aba9-fc02ff2b0025" />   <img width="7%" alt="image" src="https://github.com/user-attachments/assets/0ef8fba0-3949-4ab8-87e9-24ba219de6c7" />
 
 
 Saiba mais sobre o Inquérito de Saúde no Município de São Paulo "ISA Capital - SP" em:
